@@ -39,54 +39,61 @@ Figure2_growth_main.m
 
 ## Folder Structure
 ### 1. Data generation
-Contains core simulation and model definitions
+Contains core simulation and model definitions.
+
+```text
 Data generation/
-    Main_data_generation.m
-    get_notochord_params_base.m
-    Notochord_main_pkg.m
-    all_cell_volume.m
-    tension.m
-    volume_radius_relation.m
+├── Main_data_generation.m
+├── get_notochord_params_base.m
+├── Notochord_main_pkg.m
+├── all_cell_volume.m
+├── tension.m
+└── volume_radius_relation.m
+```
 ### 2. Data storage
+```text
 Data_for_plot/
-    (All generated .mat files used for plotting)
+└── All generated .mat files used for plotting
+```
 ### 3. Growth simulation (Figure 2)
+```text
 Fig2_growth/
-    Figure2_growth_main.m
-    Data_processing.m
-    VideoWriting_Growth.m
-    plot_config_only.m
-    plot_notochord_video.m
-    Notochord_main_pkg_long.m
-    all_cell_volume.m
-    tension.m
-    viridis.m
-    volume_radius_relation.m
-    Volume_all_dpf_exp.mat
-    Volume_all_dpf_exp_proc_smooth_*.mat
-    Growth pattern.mp4
-### 4. Root directory (figure generation + utilities)
+├── Figure2_growth_main.m
+├── Data_processing.m
+├── VideoWriting_Growth.m
+├── plot_config_only.m
+├── plot_notochord_video.m
+├── Notochord_main_pkg_long.m
+├── all_cell_volume.m
+├── tension.m
+├── viridis.m
+├── volume_radius_relation.m
+├── Volume_all_dpf_exp.mat
+├── Volume_all_dpf_exp_proc_smooth_*.mat
+└── Growth pattern.mp4
+```
+### 4. Root directory: figure generation and utilities
+
+```text
 Root/
-    PART1_BaseResults.m
-    PART2_Propagation_and_TimeScales.m
-    PART3_AsymmetricResponse.m
-    PART4_VolumeChange_DifScenarios.m
-    PART5_DecayProfiles.m
-
-    Plot1_dynamical_curve_representation_Intra.m
-    Plot2_2D_kymograph_Intra_and_Interstitial.m
-    Plot_Decay_Profile.m
-    plot_config_only.m
-    plot_notochord_video.m
-    quantify_prop.m
-
-    Fig_Adjustment.m
-    VideoWriting.m
-    viridis.m
-
-    all_cell_volume.m
-    tension.m
-    volume_radius_relation.m
+├── PART1_BaseResults.m
+├── PART2_Propagation_and_TimeScales.m
+├── PART3_AsymmetricResponse.m
+├── PART4_VolumeChange_DifScenarios.m
+├── PART5_DecayProfiles.m
+├── Plot1_dynamical_curve_representation_Intra.m
+├── Plot2_2D_kymograph_Intra_and_Interstitial.m
+├── Plot_Decay_Profile.m
+├── plot_config_only.m
+├── plot_notochord_video.m
+├── quantify_prop.m
+├── Fig_Adjustment.m
+├── VideoWriting.m
+├── viridis.m
+├── all_cell_volume.m
+├── tension.m
+└── volume_radius_relation.m
+```
 
 ## Figure–Code Mapping
 ### Figure 2 (Growth dynamics)
