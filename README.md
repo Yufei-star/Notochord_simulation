@@ -10,32 +10,26 @@ This repository contains simulation code, data processing scripts, and plotting 
 
 ### 1. Generate Simulation Data
 
-Run scripts in:
-Data generation/
-
-Main entry file:
-Main_data_generation.m
-
-This step produces .mat files containing simulation outputs (Geometry, Pressure, Flux, etc.).
+- Run scripts in `Data generation/`
+- Main entry file: `Main_data_generation.m`
+- This step produces `.mat` files containing simulation outputs (Geometry, Pressure, Flux, etc.).
 
 ### 2.	Prepare data for plotting
-Move or copy all generated .mat files into:
-Data_for_plot/
-This folder serves as the centralized data source for all figure scripts.
+- Move or copy all generated `.mat` files into `Data_for_plot/`
+- This folder serves as the centralized data source for all figure scripts.
 
 ### 3.	Generate figures (main text and supplementary)
-Run the following scripts in the root directory: 
-o	PART1_BaseResults.m 
-o	PART2_Propagation_and_TimeScales.m 
-o	PART3_AsymmetricResponse.m 
-o	PART4_VolumeChange_DifScenarios.m 
-o	PART5_DecayProfiles.m 
+Run:
+
+- `PART1_BaseResults.m`
+- `PART2_Propagation_and_TimeScales.m`
+- `PART3_AsymmetricResponse.m`
+- `PART4_VolumeChange_DifScenarios.m`
+- `PART5_DecayProfiles.m`
 
 ### 4.	Growth simulation (Figure 2)
-Located in:
-Fig2_growth/
-Main file:
-Figure2_growth_main.m
+- Folder: `Fig2_growth/`
+- Main file: `Figure2_growth_main.m`
 
 ## Folder Structure
 ### 1. Data generation
