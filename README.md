@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains simulation code, data processing scripts, and plotting routines used to generate all figures in the manuscript. The workflow is organized into a simple and reproducible pipeline, separating data generation, data storage, and figure reproduction. :contentReference[oaicite:0]{index=0}
+This repository contains simulation code, data processing scripts, and plotting routines used to generate all figures in the manuscript. The workflow is organized into a simple and reproducible pipeline, separating data generation, data storage, and figure reproduction.
 
 ---
 
@@ -12,8 +12,10 @@ This repository contains simulation code, data processing scripts, and plotting 
 
 Run scripts in:
 Data generation/
+
 Main entry file:
 Main_data_generation.m
+
 This step produces .mat files containing simulation outputs (Geometry, Pressure, Flux, etc.).
 
 ### 2.	Prepare data for plotting
