@@ -90,51 +90,91 @@ Root/
 ```
 
 ## Figure–Code Mapping
-### Figure 2 (Growth dynamics)
-•	Fig2_growth/Figure2_growth_main.m 
-### Figure 3 and Figure S3 (Propagation dynamics and local response)
-•	PART2_Propagation_and_TimeScales.m 
-o	Fig. 3H–L 
-o	Fig. S3 
-### Figure 4 and Figure S4 (Curvature dependence)
-•	PART3_AsymmetricResponse.m 
-o	Fig. 4C–H 
-o	Fig. S4 
-### Figure 5A–B (Response asymmetry)
-•	PART3_AsymmetricResponse.m 
-### Figure 5D (Decay length scale)
-•	PART5_DecayProfiles.m 
-### Figure 5E (Volume loss vs pressure differential)
-•	PART4_VolumeChange_DifScenarios.m 
-### Figure S5 (Parameter dependence: decay, permeability, initial conditions)
-•	PART5_DecayProfiles.m 
-### Base simulation results (used across multiple figures)
-•	PART1_BaseResults.m 
-o	Provides baseline data and comparison panels
+
+### Figure 2 (Growth Dynamics)
+
+- `Fig2_growth/Figure2_growth_main.m`
+
+### Figure 3 and Figure S3 (Propagation Dynamics and Local Response)
+
+- `PART2_Propagation_and_TimeScales.m`
+  - Fig. 3H–L
+  - Fig. S3
+
+### Figure 4 and Figure S4 (Curvature Dependence)
+
+- `PART3_AsymmetricResponse.m`
+  - Fig. 4C–H
+  - Fig. S4
+
+### Figure 5A–B (Response Asymmetry)
+
+- `PART3_AsymmetricResponse.m`
+
+### Figure 5D (Decay Length Scale)
+
+- `PART5_DecayProfiles.m`
+
+### Figure 5E (Volume Loss vs. Pressure Differential)
+
+- `PART4_VolumeChange_DifScenarios.m`
+
+### Figure S5 (Parameter Dependence: Decay, Permeability, Initial Conditions)
+
+- `PART5_DecayProfiles.m`
+
+### Base Simulation Results (Used Across Multiple Figures)
+
+- `PART1_BaseResults.m`
+  - Provides baseline data and comparison panels.
 
 ## Key Utility Functions
-•	Notochord_main_pkg.m
-Core simulation solver 
-•	Plot1_dynamical_curve_representation_Intra.m
-Line plots of intracellular dynamics 
-•	Plot2_2D_kymograph_Intra_and_Interstitial.m
-Kymographs of spatial-temporal dynamics 
-•	Plot_Decay_Profile.m
-Spatial decay analysis 
-•	quantify_prop.m
-Quantification of propagation dynamics 
-•	Fig_Adjustment.m
-Standardized figure formatting 
+
+- `Notochord_main_pkg.m`
+  - Core simulation solver.
+
+- `Plot1_dynamical_curve_representation_Intra.m`
+  - Line plots of intracellular dynamics.
+
+- `Plot2_2D_kymograph_Intra_and_Interstitial.m`
+  - Kymographs of spatiotemporal dynamics.
+
+- `Plot_Decay_Profile.m`
+  - Spatial decay analysis.
+
+- `quantify_prop.m`
+  - Quantification of propagation dynamics.
+
+- `Fig_Adjustment.m`
+  - Standardized figure formatting.
+
 ## Notes
-•	All figure scripts assume data is available in Data_for_plot/. 
-•	Simulation outputs follow a consistent structure: 
-o	Geometry → volume, radius, tension 
-o	Pressure → hydraulic and osmotic pressure 
-o	Flux → water and solute transport 
-•	Plotting scripts are modular and can be executed independently once data is prepared. 
+
+- All figure scripts assume data is available in `Data_for_plot/`.
+
+- Simulation outputs follow a consistent structure:
+  - **Geometry:** volume, radius, tension
+  - **Pressure:** hydraulic and osmotic pressure
+  - **Flux:** water and solute transport
+
+- Plotting scripts are modular and can be executed independently once data is prepared.
+
 ## Recommended Usage
+
 To fully reproduce all results:
-1.	Run Data generation/Main_data_generation.m 
-2.	Move outputs to Data_for_plot/ 
-3.	Run PART1–PART5 
-4.	Run Fig2_growth/Figure2_growth_main.m
+
+1. Run `Data generation/Main_data_generation.m`
+
+2. Move outputs to `Data_for_plot/`
+
+3. Run:
+
+   - `PART1_BaseResults.m`
+   - `PART2_Propagation_and_TimeScales.m`
+   - `PART3_AsymmetricResponse.m`
+   - `PART4_VolumeChange_DifScenarios.m`
+   - `PART5_DecayProfiles.m`
+
+4. Run:
+
+   - `Fig2_growth/Figure2_growth_main.m`
