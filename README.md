@@ -103,7 +103,6 @@ Root/
 
 - `PART2_Propagation_and_TimeScales.m`
   - Fig. 3L
-  - Fig. S3
 
 - `PART4_VolumeChange_DifScenarios.m`
   - Fig. S3G
@@ -114,26 +113,17 @@ Root/
   - Fig. 4E–H
   - Fig. S4C&F
 
-### Figure 5A–B (Response Asymmetry)
+### Figure 5 and Figure S5
 
 - `PART3_AsymmetricResponse.m`
-
-### Figure 5D (Decay Length Scale)
+  - Fig. 5A–B(Response Asymmetry)
 
 - `PART5_DecayProfiles.m`
-
-### Figure 5F (Volume Loss vs. Pressure Differential)
+  - Fig. 5D (Decay Length Scale)
+  - Fig. S5 (Parameter Dependence: Decay, Permeability, Initial Conditions)
 
 - `PART4_VolumeChange_DifScenarios.m`
-
-### Figure S5 (Parameter Dependence: Decay, Permeability, Initial Conditions)
-
-- `PART5_DecayProfiles.m`
-
-### Base Simulation Results (Used Across Multiple Figures)
-
-- `PART1_BaseResults.m`
-  - Provides baseline data and comparison panels.
+  - Fig. 5F (Volume Loss vs. Pressure Differential)
 
 ## Key Utility Functions
 
