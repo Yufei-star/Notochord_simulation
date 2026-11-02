@@ -3,7 +3,7 @@
 % Effect of initial curvature on local dynamics and response asymmetry
 % -------------------------------------------------------------------------
 
-%% Figure 4C–D: Low initial curvature (R = 2 R_t)
+%% Figure 4E-F: Low initial curvature (R = 2 R_t)
 clc; clear;
 
 % Load simulation data (low-curvature configuration)
