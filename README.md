@@ -97,15 +97,22 @@ Root/
 
 ### Figure 3 and Figure S3 (Propagation Dynamics and Local Response)
 
+- `PART1_BaseResults.m`
+  - Fig. 3H–K
+  - Fig. S3F
+
 - `PART2_Propagation_and_TimeScales.m`
-  - Fig. 3H–L
+  - Fig. 3L
   - Fig. S3
+
+- `PART4_VolumeChange_DifScenarios.m`
+  - Fig. S3G
 
 ### Figure 4 and Figure S4 (Curvature Dependence)
 
 - `PART3_AsymmetricResponse.m`
-  - Fig. 4C–H
-  - Fig. S4
+  - Fig. 4E–H
+  - Fig. S4C&F
 
 ### Figure 5A–B (Response Asymmetry)
 
@@ -115,7 +122,7 @@ Root/
 
 - `PART5_DecayProfiles.m`
 
-### Figure 5E (Volume Loss vs. Pressure Differential)
+### Figure 5F (Volume Loss vs. Pressure Differential)
 
 - `PART4_VolumeChange_DifScenarios.m`
 
