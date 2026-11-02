@@ -58,7 +58,7 @@ end
 
 Fig_Adjustment
 
-%% Figure 3K,L
+%% Figure 3J,K
 % Local intracellular and interstitial dynamics shown as 2D kymographs
 
 % Select the same 20-cell window around the perturbed region
