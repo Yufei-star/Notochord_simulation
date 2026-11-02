@@ -1,4 +1,4 @@
-%% Figure S3H: Volume loss for different membrane elasticities
+%% Figure S3G: Volume loss for different membrane elasticities
 % This panel quantifies how the maximum volume loss depends on the
 % membrane elastic modulus \tilde{k}.
 
